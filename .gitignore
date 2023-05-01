@@ -28,3 +28,4 @@ chiptest
 tools/reg_parser/Peripherals/*_reg.h
 tools/reg_parser/InitVals/*_register.c
 **/img_create_iot
+toolchain_gcc_t-head_linux/

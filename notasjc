@@ -1,0 +1,11 @@
+------- instalar en el docker-------
+apt-get update
+sudo apt install git make ninja-build -y
+git clone https://gitee.com/bouffalolab/toolchain_gcc_t-head_linux.git
+echo "export PATH=\"$PATH:/workspaces/bouffalo_sdk/toolchain_gcc_t-head_linux/bin\""  >> ~/.bashrc
+source ~/.bashrc
+
+
+cd examples/helloworld
+make CHIP=bl602 BOARD=bl602dk
+-----------------------------------
