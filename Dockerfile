@@ -13,3 +13,6 @@ WORKDIR /home/app
 
 #Bajar:
 #git clone https://gitee.com/bouffalolab/toolchain_gcc_t-head_linux
+
+#ejecutar
+#docker build -t buffalo_gcc .
